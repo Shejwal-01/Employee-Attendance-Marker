@@ -1,0 +1,18 @@
+-- CREATE DATABASE attendance_system;
+-- USE attendance_system;
+-- CREATE TABLE employees (
+-- id INT AUTO_INCREMENT PRIMARY KEY,
+-- name VARCHAR(100) NOT NULL,
+-- username VARCHAR(100) NOT NULL UNIQUE,
+-- password VARCHAR(100),
+-- department VARCHAR(100)
+-- );
+
+-- CREATE TABLE attendance(
+-- id INT AUTO_INCREMENT PRIMARY KEY,
+-- employee_id INT,
+-- date DATE,
+-- time_in TIMESTAMP,
+-- time_out TIMESTAMP,
+-- CONSTRAINT fkey_emp FOREIGN KEY (employee_id) REFERENCES employees(id)
+-- );
